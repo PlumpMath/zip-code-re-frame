@@ -3,5 +3,6 @@
 (def debug?
   ^boolean js/goog.DEBUG)
 
-(when debug?
+#_(when debug?
   (enable-console-print!))
+(enable-console-print!)
