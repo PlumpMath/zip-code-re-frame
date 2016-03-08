@@ -1,6 +1,6 @@
 # zip-code-reframe
 
-A [re-frame](https://github.com/Day8/re-frame) application designed to ... well, that part is up to you.
+A [re-frame](https://github.com/Day8/re-frame) application: a port of the Elm [zip code](http://elm-lang.org/examples/zip-codes) example.
 
 ## Development Mode
 
