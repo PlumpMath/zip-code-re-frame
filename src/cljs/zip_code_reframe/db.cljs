@@ -2,4 +2,4 @@
 
 (def default-db
   {:zip-code ""
-   :zip-response ""})
+   :zip-response [:invalid]})

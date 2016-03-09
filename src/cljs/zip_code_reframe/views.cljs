@@ -10,10 +10,9 @@
             :type "text"
             :name "zip"
             :placeholder "enter US zipcode"
-            :onChange #(r/dispatch [:update-text (-> % .-target .-value) [:zip-code]])}]
+            :onChange #(r/dispatch [:update-zip (-> % .-target .-value)])}]
    [:p (if (valid-zip? @zip-code)
-         (do (r/subscribe [:look-up-zip-code @zip-code]) 
-             @zip-response) 
+         @zip-response
          "Enter a VALID zip code please…")]])
 
 (defn main-panel []
